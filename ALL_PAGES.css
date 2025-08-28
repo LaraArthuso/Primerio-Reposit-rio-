@@ -1,0 +1,53 @@
+/* stylepaginasite.css */
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Bree Serif', serif; /*a fonte ta cheia de linkkk*/
+        }
+
+
+    body {
+            text-align: center;
+            background-color: white;
+            
+        }
+        .header {
+            background-color: #3a6ea5;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header nav a {
+            justify-content: flex-end;
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            padding: 15px 15px;
+        
+         }
+        .main-section {
+            background-color: #d3d3d3;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+        .footer {
+            background-color: #3a6ea5;
+            padding: 30px;
+            color: white;
+            font-size: small;
+            margin-top: 100px;
+
+        }
+
+        h1 {
+      color:  #3a6ea5;
+      text-align: center;
+      margin-top: 35px;
+      margin-bottom: 50px;
+    }
